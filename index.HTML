@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cohopers Diaries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/Cohopers Logo.png">
+            
+        </div>
+        <div class="nav-links">
+            <a href="#intro">Home</a>
+            <a href="#companies">Clients</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="intro-section">
+        <div class="camera-lens"></div>
+        <div class="film-strip film-strip-top"></div>
+        <div class="film-strip film-strip-bottom"></div>
+        <div class="camera-elements">
+            <div class="camera-circle"></div>
+            <div class="camera-rectangle"></div>
+            <div class="aperture-ring"></div>
+        </div>
+        <div class="diary-container">
+            <div class="book" id="book">
+                <div class="spring">
+                    <div class="spring-coil"></div>
+                    <div class="spring-coil"></div>
+                    <div class="spring-coil"></div>
+                    <div class="spring-coil"></div>
+                    <div class="spring-coil"></div>
+                    <div class="spring-coil"></div>
+                    <div class="spring-coil"></div>
+                    <div class="spring-coil"></div>
+                </div>
+                <div class="book-cover">
+                    <div class="book-content">
+                        <h1>OPEN T<span class="highlight-cyan">O</span></h1>
+                        <h1>COHOPERS</h1>
+                        <h1>DAI<span class="highlight-pink">R</span>Y</h1>
+                        <p>A BOOK</p>
+                        <button class="tap-button" id="tapButton">
+                            <span class="tap-text">Tap to Open</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="book-inside">
+                    <button class="close-button" id="closeButton">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button class="page-nav prev-page" id="prevPage">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="pages-container">
+                        <div class="page-separator"></div>
+                        <div class="page-spread active" data-page="1">
+                            <div class="page page-left">
+                                <h2>COHOPERS</h2>
+                                <p>CoHopers is more than just a coworking space - it's a community of innovators, entrepreneurs, and creative minds. Founded with the vision of fostering collaboration and innovation, we've created an environment where ideas flourish and businesses grow.</p>
+                            </div>
+                            <div class="page page-right">
+                                <div class="book-image">
+                                    <img src="assets/cohopers.jpg"CoHopers Workspace">
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-spread" data-page="2">
+                            <div class="page page-left">
+                                <h2>ARCELORMITTAL</h2>
+                                <h3>Growing Together</h3>
+                                <p>Join a vibrant community of entrepreneurs, creators, and innovators. Our diverse network of professionals brings together unique perspectives and skills, creating an ecosystem of growth and collaboration.</p>
+                            </div>
+                            <div class="page page-right">
+                                <div class="book-image">
+                                    <img src="assets/Arcelormittal-logo.svg.png"CoHopers Community">
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-spread" data-page="3">
+                            <div class="page page-left">
+                                <h2>Events & Programs</h2>
+                                <h3>Growing Together</h3>
+                                <p>Join a vibrant community of entrepreneurs, creators, and innovators. Our diverse network of professionals brings together unique perspectives and skills, creating an ecosystem of growth and collaboration.</p>
+                            </div>
+                            <div class="page page-right">
+                                <div class="book-image">
+                                    <img src="assets/playvolume.png">
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="page-nav next-page" id="nextPage">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section id="companies" class="companies-section">
+        <div class="logo-slider-container">
+            <div class="logo-slider">
+                <!-- First set of logos -->
+                <div class="company-logo">
+                    <img src="assets/Arcelormittal-logo.svg.png">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/playvolume.png"Company 2">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/rootAMZ.jpeg"Company 3">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/Stevin-Shipping.jpg"Company 4">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/LIC.png"Company 5">
+                </div>
+                <!-- Duplicate set of logos for seamless scrolling -->
+                <div class="company-logo">
+                    <img src="assets/Arcelormittal-logo.svg.png"Company 1">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/playvolume.png"Company 2">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/rootAMZ.jpeg"Company 3">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/Stevin-Shipping.jpg"Company 4">
+                </div>
+                <div class="company-logo">
+                    <img src="assets/LIC.png"Company 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Let's <span class="highlight">Connect</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Share your own story with us.</h3>
+                <p>Let's remember the roots where we came from and how we got here.</p>
+                <br>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="icon"><p>🌏 Unit 630, 6th Floor, DLF Cybercity, Bhubaneswar, Odisha-751024</p></span>
+                    </div>
+                    <br>
+                    <div class="contact-item">
+                        <span class="icon"><p>✉️ info@cohopers.in</p></span>
+                    </div>
+                    <br>
+                    <div class="contact-item">
+                        <span class="icon"><p>📞 +91 83288 30398</p></span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div id="formMessage" class="form-message"></div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Updated Footer -->
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="logo">CoHopers</div>
+                <p>And this is our JOURNEY to the future.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/cohopers" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/cohopers" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/cohopers" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Cohopers Diaries. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Structure -->
+    
+
+    <script src="script.js"></script>
+    <script>
+        // Contact form functionality
+        const contactForm = document.getElementById('contactForm');
+        const formMessage = document.getElementById('formMessage');
+        const submitBtn = contactForm.querySelector('.submit-btn');
+
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            // Disable submit button and show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            formMessage.className = 'form-message';
+            formMessage.textContent = '';
+            
+            const formData = new FormData(contactForm);
+            
+            try {
+                const response = await fetch('send_email.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                let result;
+                try {
+                    result = await response.json();
+                } catch (e) {
+                    console.error('Error parsing JSON:', e);
+                    throw new Error('Invalid response format from server');
+                }
+                
+                if (result.success) {
+                    formMessage.textContent = result.message;
+                    formMessage.className = 'form-message success';
+                    contactForm.reset();
+                } else {
+                    formMessage.textContent = result.message || 'An error occurred while sending your message.';
+                    formMessage.className = 'form-message error';
+                    console.error('Form submission failed:', result);
+                }
+            } catch (error) {
+                //console.error('Form submission error:', error);
+                //formMessage.textContent = 'There was a problem sending your message. Please try again later or contact us directly at sales@cohopers.in';
+                //formMessage.className = 'form-message error';
+            } finally {
+                // Re-enable submit button
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Send Message';
+            }
+        });
+    </script>
+</body>
+</html>

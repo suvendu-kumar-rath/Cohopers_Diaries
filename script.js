@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create Gmail compose URL with pre-filled information
         const subject = `Contact Form Submission`;
         const body = message;
-        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=info@cohopers.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=info@cohopers.in&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         // Redirect to Gmail
         window.location.href = gmailUrl;

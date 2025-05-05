@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Create Gmail compose URL with pre-filled information
-        const subject = `Contact Form Submission`;
+        const subject = `Cohopers dairies enquiry`;
         const body = message;
         const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=info@cohopers.in&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
